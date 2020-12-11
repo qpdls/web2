@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: cornflowerblue;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+nav a li {
+    display: inline;
+    margin-left: 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    padding: 8px 0px 8px 0px;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+}
+
+aside ol {
+    width: 110px;
+    margin: 0;
+    padding: 20px 0px 10px 55px;
+}
+
+aside ol li {
+    margin-bottom: 5px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+article {
+    padding-left: 40px;
+    border-left: 1px solid gray;
+}
+
+@media(max-width:800px) {
+    #grid {
+        display: block;
+    }
+    
+    article {
+        padding-left: 30px;
+        border-left: 1px solid gray;
+    }
+}
+
